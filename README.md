@@ -20,6 +20,8 @@ An ESRI Python Toolbox created to simultaneously convert multiple .gpx (GPS exch
 * In the ArcGIS tool interface select a folder containing one or more .gpx files as input
 * You can change the name for the output point and line files which  will be created, or they will be created with a default name in the    folder containing the .gpx files
 
+![Screenshot of ArcGIS interface](https://github.com/fnprice/GPX_Toolbox/GPX_toolbox_screenshot.jpg)
+
 ## Authors
 
 Frank Price (Florida Natural Areas Inventory)
