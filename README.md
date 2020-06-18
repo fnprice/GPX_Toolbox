@@ -1,12 +1,14 @@
 # GPX_Toolbox
-An ESRI Python Toolbox created to simultaneously convert multiple .gpx (GPS exchange XML format) files to a single point and line shapefile.  
+An ESRI Python Toolbox that converts multiple .gpx (GPS exchange XML format) files to a single point and line shapefile.  
 
-**Users can set limits for:**
+**Users can limit the points used to create the output line file by:**
 * Max speed of travel
 * Max distance between points
 * Minimum number of points to form a line  
 
 These options create a cleaner output line file by allowing omission of bad GPS locations and, for example, data which was collected at highway speeds rather than off road.
+
+ALL input points from the gpx file are returned in the output point shape file.  The limiting options are only used in creating the line output.
 
 ## Getting Started
 
