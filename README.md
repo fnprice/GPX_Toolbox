@@ -16,7 +16,7 @@ An ESRI Python Toolbox created to convert .gpx files to a point and line shapefi
 ### Executing program
 
 * Navigate to the .pyt file in the Catalog window of ArcMap and double click to run
-* Add the .pyt to ArcToolBox for easier access
+* Add the .pyt to ArcToolbox for easier access
 
 ## Authors
 
@@ -24,23 +24,23 @@ Frank Price (Florida Natural Areas Inventory)
 
 ## Version History
 
-    * v1 initial release
-    
-    * v2 handles errors due to missing DateTime values and invalid GPX files.
+* v1 initial release
 
-    * v3 handles errors due to valid but empty GPX files
+* v2 handles errors due to missing DateTime values and invalid GPX files.
 
-    * v4 in cases of Basic License doesn't recalc extent AND fixes error "Output
-      Dataset or Feature Class is same as input" on line 301 when output name edited
+* v3 handles errors due to valid but empty GPX files
 
-    * v5 added check for Avenza maps datetime format: 2019-06-25T12:25:54-04:00
-       and moved the datetime handling to a separate function (parse_time)
+* v4 in cases of Basic License doesn't recalc extent AND fixes error "Output
+Dataset or Feature Class is same as input" on line 301 when output name edited
 
-    * v6 added repair geometry to each output line fc before merge to handle cases
-       of lines composed of only identical points (null geom), also added del of
-       final update cursors to prevent locks
+* v5 added check for Avenza maps datetime format: 2019-06-25T12:25:54-04:00
+and moved the datetime handling to a separate function (parse_time)
 
-    * v7 edited to accomodate files with no timestamps
+* v6 added repair geometry to each output line fc before merge to handle cases
+of lines composed of only identical points (null geom), also added del of
+final update cursors to prevent locks
+
+* v7 edited to accomodate files with no timestamps
 
 ## License
 
