@@ -7,9 +7,9 @@ Purpose:     Converts a set of GPX files into an ESRI pt and line shapefile.
 
 Author:      Frank Price (FNAI)
 
-Created:     25-03-2019
+Created:     2019-03-25
 Copyright:   (c) FrankP 2019
-Licence:     share it, edit it, give me some credit
+License:     MIT
 #----------------------------------------------------------------------------'''
 
 import arcpy
