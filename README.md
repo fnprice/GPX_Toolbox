@@ -17,6 +17,8 @@ An ESRI Python Toolbox created to convert .gpx files to a point and line shapefi
 
 * Navigate to the .pyt file in the Catalog window of ArcMap and double click to run
 * Add the .pyt to ArcToolbox for easier access
+* In the ArcGIS tool interface select a folder containing one or more .gpx files as input
+* You can change the name for the output point and line files which  will be created, or they will be created with a default name in the    folder containing the .gpx files
 
 ## Authors
 
