@@ -6,7 +6,7 @@ An ESRI Python Toolbox created to simultaneously convert multiple .gpx (GPS exch
 * Max distance between points
 * Minimum number of points to form a line  
 
-These options allow omission of bad locations and, for example, data which was collected at highway speeds rather than off road.
+These options create a cleaner output line file by allowing omission of bad GPS locations and, for example, data which was collected at highway speeds rather than off road.
 
 ## Getting Started
 
